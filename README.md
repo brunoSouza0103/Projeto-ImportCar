@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 # Projeto-ImportCar
-=======
-# React + Tailwind Starter
 
 Estrutura base montada com **Vite**, **React 18** e **TailwindCSS**.
 
