@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    overflow-x: hidden;
+}
+
+body {
+  @apply bg-black text-white;
+  background-image: url('./bg-main.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* garante que <img> mantenha a resolução e não estique */
+img {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+section{
+  height: 90vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
